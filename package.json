@@ -1,0 +1,19 @@
+{
+  "name": "game1",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "(npx parcel ./index.html -p 3300) & npx parcel watch ./index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "prettier": "2.8.4"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
